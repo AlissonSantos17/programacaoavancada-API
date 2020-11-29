@@ -1,5 +1,33 @@
-##O que é?
+1. Usando qualquer Linguagem de Programação e/ou Framework, criar uma API com
+6 endpoints. Cada endpoint deve ter uma das seguintes configurações:
 
-Atividade feita para uma API básica fazendo requests com os metodos GET, POST, PUT e DELETE.
+a) Rota: /
+Verbo: GET
+Resposta*: Este endpoint utiliza o verbo GET.
 
-Para instalar as dependencias basta apenas da um 'npm install' e após isso da um 'yarn dev'.
+
+b) Rota: /
+Verbo: POST
+Resposta: Este endpoint utiliza o verbo POST.
+
+
+c) Rota: /
+Verbo: PUT
+Resposta: Este endpoint utiliza o verbo PUT.
+
+
+d) Rota: /
+Verbo: POST
+Dado: um nome via URL
+Resposta: Este endpoint recebe o nome <Nome enviado> via URL.
+  
+  
+e) Rota: /estudante
+Verbo: PUT
+Dado: um nome via corpo da requisição
+Resposta: Este endpoint recebe o nome <Nome enviado> via Corpo da Requisição.
+  
+  
+f) Rota: /
+Verbo: DELETE
+Resposta: Este endpoint utiliza o verbo DELETE.
